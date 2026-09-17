@@ -90,4 +90,3 @@ npm run preview
 ```
 
 ---
-oject is created for learning and portfolio purposes.
