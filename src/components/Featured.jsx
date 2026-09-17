@@ -73,7 +73,7 @@ const Featured = () => {
       <div className="mt-10 flex justify-center gap-5">
       <Link
             to="/portfolio"
-            className="px-6 py-2 bg-white text-gray-700 tracking-wider border rounded-lg hover:bg-green-600 hover:text-white transition"
+            className="px-6 py-2 bg-white text-gray-700 tracking-wider border rounded-lg hover:bg-blue-600 hover:text-white transition"
           >
             View Full Portfolio  →
           </Link>

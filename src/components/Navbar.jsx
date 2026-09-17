@@ -31,20 +31,36 @@ const Navbar = () => {
         </Link>
 
         {/* Navigation */}
-        <div className="flex gap-10 text-gray-800">
-          <Link to="/" className="hover:text-blue-500 transition">
+        <div className="flex gap-10 bg-gradient-to-r from-blue-500 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+          <Link to="/" className="relative hover:text-blue-500 transition duration-300
+             after:absolute after:left-0 after:-bottom-1
+             after:w-0 after:h-[2px] after:bg-blue-500
+             after:transition-all after:duration-300
+             hover:after:w-full">
             Home
           </Link>
 
-          <Link to="/portfolio" className="hover:text-blue-500 transition">
+          <Link to="/portfolio" className="relative hover:text-blue-500 transition duration-300
+             after:absolute after:left-0 after:-bottom-1
+             after:w-0 after:h-[2px] after:bg-blue-500
+             after:transition-all after:duration-300
+             hover:after:w-full">
             Portfolio
           </Link>
 
-          <Link to="/about" className="hover:text-blue-500 transition">
+          <Link to="/about" className="relative hover:text-blue-500 transition duration-300
+             after:absolute after:left-0 after:-bottom-1
+             after:w-0 after:h-[2px] after:bg-blue-500
+             after:transition-all after:duration-300
+             hover:after:w-full">
             About
           </Link>
 
-          <Link to="/contact" className="hover:text-blue-500 transition">
+          <Link to="/contact" className="relative hover:text-blue-500 transition duration-300
+             after:absolute after:left-0 after:-bottom-1
+             after:w-0 after:h-[2px] after:bg-blue-500
+             after:transition-all after:duration-300
+             hover:after:w-full">
             Contact Us
           </Link>
         </div>

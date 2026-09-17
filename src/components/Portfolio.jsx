@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 import image1 from "../assets/image3.jpg";
 import image2 from "../assets/image2.jpg";
-import image3 from "../assets/image3.jpg";
+import image3 from "../assets/image6.jpg";
 import image4 from "../assets/image4.jpg";
 import image5 from "../assets/image5.jpg";
 import image6 from "../assets/image1.avif";
@@ -168,7 +168,7 @@ const Portfolio = () => {
                     {item.title}
                   </h3>
 
-                  <p className="mt-1 text-sm font-medium text-gray-800">
+                  <p className="mt-1 pl-1 text-sm font-medium text-gray-800">
                     {item.category}
                   </p>
                 </div>
