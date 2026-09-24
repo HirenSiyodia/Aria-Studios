@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
           <div className="mt-14 pt-6 border-t border-gray-200 flex justify-center">
           <p className="text-sm text-gray-500">
-            © 2026 Hiren Siyodia. All rights reserved.
+            © 2026 All rights reserved. Built by Hiren Nanubhai Siyodia.
           </p>
         </div>
        </div>
